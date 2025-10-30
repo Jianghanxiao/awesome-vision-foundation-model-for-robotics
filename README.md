@@ -88,7 +88,6 @@ If you’re working on **robot vision** or **robot learning**,
 ---
 ## 🧱 Visual Latent Representation
 
-See the full papers table in [VFMs/detection.md](VFMs/detection.md)
 ## 🔍 Detection
 
 ## ✂️ Segmentation
