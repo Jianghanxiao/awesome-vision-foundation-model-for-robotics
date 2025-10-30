@@ -88,6 +88,38 @@ If you’re working on **robot vision** or **robot learning**,
 ---
 ## 🧱 Visual Latent Representation
 
+<table>
+<tr>
+<td>
+
+<strong>CLIP — [2021]</strong><br>
+<ul>
+<li><strong>Paper:</strong> <a href="https://openai.com/research/clip">Learning Transferable Visual Models From Natural Language Supervision</a></li>
+<li><strong>Code:</strong> <a href="https://github.com/openai/CLIP">GitHub</a></li>
+<li><strong>Input:</strong> Image / Text</li>
+<li><strong>Output:</strong> Embeddings (image and text)</li>
+<li><strong>Visualization:</strong><br><img src="https://raw.githubusercontent.com/openai/CLIP/main/CLIP.png" width="300"></li>
+<li><strong>Robotics applicability:</strong> Open-vocabulary object recognition, grounding task instructions</li>
+<li><strong>Integration notes:</strong> Works well with zero-shot classification; combine with segmentation for localization</li>
+</ul>
+<hr>
+
+<strong>CLIP — [2021]</strong><br>
+<ul>
+<li><strong>Paper:</strong> <a href="https://openai.com/research/clip">Learning Transferable Visual Models From Natural Language Supervision</a></li>
+<li><strong>Code:</strong> <a href="https://github.com/openai/CLIP">GitHub</a></li>
+<li><strong>Input:</strong> Image / Text</li>
+<li><strong>Output:</strong> Embeddings (image and text)</li>
+<li><strong>Visualization:</strong><br><img src="https://raw.githubusercontent.com/openai/CLIP/main/CLIP.png" width="300"></li>
+<li><strong>Robotics applicability:</strong> Open-vocabulary object recognition, grounding task instructions</li>
+<li><strong>Integration notes:</strong> Works well with zero-shot classification; combine with segmentation for localization</li>
+</ul>
+<hr>
+
+</td>
+</tr>
+</table>
+
 
 
 
