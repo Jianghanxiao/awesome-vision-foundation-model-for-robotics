@@ -35,15 +35,24 @@ A model that:
 
 | Category | Example Capabilities | Typical Robotics Use |
 |---------|---------------------|---------------------|
-<!-- | 🧠 Multi-Modal Grounding | Vision–Language alignment, grounding | Instruction following, semantic navigation |
-| 🔍 Detection & Recognition | Open-vocab detection, image retrieval | Object search, scene recognition |
-| ✂️ Segmentation | Universal segmentation (SAM family) | Grasping, affordance mapping |
-| 🏗️ 3D Perception & Reconstruction | Depth, NeRF, Gaussian Splatting | SLAM, mapping, digital twins |
-| 🧭 Tracking & Motion | Keypoints, optical flow, trajectory | Servoing, obstacle avoidance |
-| 🎥 Video Understanding | Action recognition & prediction | HRI, motion guidance |
-| 🌎 World Models | Perception-to-dynamics prediction | Planning & sim2real | -->
+| 🧱 Visual Latent Representation | Semantic embeddings, open-vocab features | Object understanding, task instruction grounding |
+| 🔍 Detection | object detection | Target localization, open-set recognition |
+| ✂️ Segmentation | Instance segmentation, part segmentation, universal mask prediction | Grasping, affordance extraction, occlusion handling |
+| 🔗 Correspondence | Keypoint matching, patch/feature correspondences | Multi-view alignment, object registration |
+| 🧭 Tracking | Object/point trajectory, video mask tracking | Visual servoing, dynamic obstacle avoidance, motion prediction |
+| 🌀 Depth Estimation | Monocular/multi-view depth, metric-free or metric depth | Navigation, coarse obstacle avoidance, 3D scene understanding |
+| 🏗️ 3D Reconstruction | Point cloud / mesh generation from sparse views or streaming  | Digital twins, SLAM, simulation pipelines |
 
-> 🔨 Entries will include: **paper + code + robotics applicability**
+> 🔨 Entries will include: **paper + code link + robotics applicability**
+
+### 🌌 2D/3D Generation & VLMs (Recommended Awesome Lists)
+These are outside the current scope of VFMs for robotics, but useful references (in the future, we can try to incorporate the useful ones for robotics, welcome contributions from the community):
+
+* [Awesome Text-to-Image](https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image)  
+* [Awesome Video Diffusion](https://github.com/showlab/Awesome-Video-Diffusion)  
+* [Awesome 3D Generation](https://github.com/justimyhxu/awesome-3D-generation)  
+* [Awesome 3D Diffusion](https://github.com/cwchenwang/awesome-3d-diffusion)  
+* [Awesome VLLMs](https://github.com/JackYFL/awesome-VLLMs)  
 
 ---
 
@@ -53,6 +62,19 @@ PRs and suggestions are highly welcome! 🚀
 ✅ Add new papers with usable code  
 ✅ Suggest new categories  
 ✅ Improve robotics applicability notes
+✅ Include Input / Output / Visualization for each model
+
+Please use this template when adding:
+```
+### Model/Paper Name — [Year]
+* Paper: link
+* Code: github-repo-link [must have code]
+* Input: image / video / text / RGBD / multi-view / prompts / ...
+* Output: boxes / masks / embeddings / depth / point cloud / ...
+* Visualization: one example figure illustrating input and output
+* Robotics applicability: 1–2 lines (best to have)
+* Integration notes: any requirement or typical use
+```
 
 📩 Let’s build the **go-to hub** for VFMs in robotics.
 
@@ -60,3 +82,22 @@ PRs and suggestions are highly welcome! 🚀
 
 If you’re working on **robot vision** or **robot learning**,  
 ⭐ **Star** this repo & help the community grow!
+
+---
+---
+---
+## 🧱 Visual Latent Representation
+
+
+## 🔍 Detection
+
+## ✂️ Segmentation
+
+
+## 🔗 Correspondence 
+
+## 🧭 Tracking
+
+## 🌀 Depth Estimation
+
+## 🏗️ 3D Reconstruction 
