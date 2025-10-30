@@ -88,10 +88,26 @@ If you’re working on **robot vision** or **robot learning**,
 ---
 ## 🧱 Visual Latent Representation
 
+| Model / Paper |
+|---------------|
+| **CLIP — [2021]**<br>
+  * **Paper:** [Learning Transferable Visual Models From Natural Language Supervision](https://openai.com/research/clip)  
+  * **Code:** [GitHub](https://github.com/openai/CLIP)  
+  * **Input:** Image / Text  
+  * **Output:** Embeddings (image and text)  
+  * **Visualization:** <br> ![CLIP Example](https://raw.githubusercontent.com/openai/CLIP/main/CLIP.png)  
+  * **Robotics applicability:** Open-vocabulary object recognition, grounding task instructions  
+  * **Integration notes:** Works well with zero-shot classification; combine with segmentation for localization  
+
+  <hr>
+
+
+
+
+
 ## 🔍 Detection
 
 ## ✂️ Segmentation
-
 
 ## 🔗 Correspondence 
 
